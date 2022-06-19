@@ -1,0 +1,15 @@
+.profile__avatar {
+	height: 120px;
+	position: relative;
+	width: 120px;
+}
+
+.profile__avatar:hover .profile__avatar-image {
+	background-color: black;
+	opacity: 0.8;
+}
+
+.profile__avatar:hover .profile__avatar-button {
+	opacity: 1;
+	z-index: 1;
+}
