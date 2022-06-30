@@ -5,6 +5,7 @@
 }
 
 .profile__avatar:hover .profile__avatar-image {
+	cursor: pointer;
 	background-color: black;
 	opacity: 0.8;
 }
