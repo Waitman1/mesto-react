@@ -9,7 +9,7 @@ function ImagePopup({ card, onClose }) {
           type="button"
           aria-label="Закрыть"
           onClick={onClose}></button>
-        <img className="zoom-picture__card" alt="Картинка-место пользователя" src={card.link} />
+        <img className="zoom-picture__card" alt={card.name} src={card.link} />
         <h2 className="zoom-picture__card-title">{card.name}</h2>
       </div>
     </section>
